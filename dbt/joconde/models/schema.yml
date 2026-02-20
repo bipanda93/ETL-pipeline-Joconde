@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: joconde_cleaned
+    description: >
+      Nettoyage de la table staging.joconde, avec filtrage des lignes incomplètes.
+    columns:
+      - name: appellation
+        description: Nom de l'œuvre
+      
+      - name: date_creation
+        description: Date de création de l'œuvre
+        tests:
+          - not_null
+      
+      - name: region
+        description: Région de l'œuvre
+        tests:
+          - not_null

@@ -1,0 +1,19 @@
+# Data Processing
+polars==0.20.3
+pandas==2.1.4
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Orchestration
+dagster==1.11.6
+dagster-webserver==1.11.6
+dagster-dbt==0.24.6
+prefect==3.0.0
+
+# dbt
+dbt-core==1.11.6
+dbt-postgres==1.10.0
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1

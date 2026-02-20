@@ -1,0 +1,14 @@
+fichiers:
+  source: /path/to/your/base-joconde-extrait.json
+  cache: /path/to/your/joconde_cache.feather
+
+staging:
+  table: staging.joconde
+
+audit:
+  source_system: "joconde_json"
+  load_process: "etl_dagster_python"
+
+dagster:
+  host: "localhost"
+  port: 3000
